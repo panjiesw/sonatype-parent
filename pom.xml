@@ -17,7 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <scm.url>scm:git:https://github.com/panjiesw/sonatype-parent.git</scm.url>
+        <scm.url>scm:git:git@github.com:panjiesw/sonatype-parent.git</scm.url>
     </properties>
 
     <licenses>
@@ -56,7 +56,7 @@
     <scm>
         <connection>${scm.url}</connection>
         <developerConnection>${scm.url}</developerConnection>
-        <url>${scm.url}</url>
+        <url>git@github.com:panjiesw/sonatype-parent.git</url>
     </scm>
 
     <distributionManagement>
