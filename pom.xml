@@ -4,7 +4,7 @@
 
     <groupId>com.github.panjiesw</groupId>
     <artifactId>sonatype-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>${project.artifactId}</name>
     <description>Parent pom to ease deployment to Maven Central</description>
@@ -55,7 +55,7 @@
         <connection>${scm.url}</connection>
         <developerConnection>${scm.url}</developerConnection>
         <url>git@github.com:panjiesw/sonatype-parent.git</url>
-      <tag>sonatype-parent-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>
